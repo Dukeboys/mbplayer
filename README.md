@@ -1,0 +1,2 @@
+# mbplayer
+Musicbrainz Music Player
