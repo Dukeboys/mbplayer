@@ -1,0 +1,6 @@
+QSplitter::handle {
+    background: qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0,
+                                stop: 0 #FFFFFF, stop: 0.4 #DDDDDD,
+                                stop: 0.5 #CCCCCC, stop: 0.6 #DDDDDD,
+                                stop: 1.0 #FFFFFF);
+}

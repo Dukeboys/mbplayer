@@ -1,3 +1,6 @@
+# Project specific generated files
+mbplayer_rc.py
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -55,3 +58,6 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# IDE areas
+.idea/
