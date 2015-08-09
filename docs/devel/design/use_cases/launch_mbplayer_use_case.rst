@@ -1,9 +1,11 @@
+MusicBrainz Player Launch Use Case
+##################################
+
 Description
 ===========
 
-| The user launches the MBPlayer which initializes itself and prompts
-  the user for necessary data if it is not
-| configured to run properly.
+The user launches the MBPlayer which initializes itself and prompts the user
+for necessary data if it is not configured to run properly.
 
 Actors
 ======
@@ -41,9 +43,8 @@ Main Success Scenario
 Variants
 ========
 
-| 3A: If the MBPlayer MusicBrainz information has not been configured,
-  or if an error occurs testing the
-|  credentials:
+3A. If the MBPlayer MusicBrainz information has not been configured,
+    or if an error occurs testing the credentials:
 
 #. MBPlayer displays a Wizard describing the problem
 #. MBPlayer presents a form where the user can make adjustments to the
@@ -54,7 +55,7 @@ Variants
 --------------
 
 3B: The system is unable connect to MusicBrainz and the user chooses to
-continue without it
+    continue without it
 
 #. MBPlayer disables all MusicBrainz dependent features
 #. Initialization continues on step 4.
@@ -62,7 +63,7 @@ continue without it
 --------------
 
 4A: If the MBPlayer local repository has not been initialized, or cannot
-be reached:
+    be reached:
 
 #. MBPlayer displays (or continues to display) a Wizard describing the
    problem
